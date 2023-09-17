@@ -1,0 +1,82 @@
+body{
+    margin-left: 15px;
+    margin-right: 40px;
+}
+@media screen and (max-width: 1000px){
+    .Garlic, .Beef, .Fish, .Eggs, .Coriander{
+    margin-top: 15px
+    }
+}
+.center {
+    display: flex;
+    justify-content: center;
+    font-family: Roboto;
+}
+.items{
+    margin-left: 30px;
+}
+.Pepper, .Apple, .Cheese, .Corn, .Mushroom, .Garlic, .Beef, .Fish, .Eggs, .Coriander{
+    display: inline-block;
+    margin-left: 10px;
+    inline-size: 165px;
+    border-radius: 16%;
+    font-family: Open Sans;
+    border: 0.7px solid #2b292b
+    
+}
+.Pepper1, .Apple1, .Cheese1, .Corn1, .Mushroom1, .Garlic1, .Beef1, .Fish1, .Eggs1, .Coriander1{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.Pepper2, .Apple2, .Cheese2, .Corn2, .Mushroom2, .Garlic2, .Beef2, .Fish2, .Eggs2, .Coriander2{
+    display: inline-block;
+    margin: auto;
+    padding-left: 30px;
+}
+.Apple2{
+    display: inline-block;
+    margin: auto;
+    padding-left: 37px;
+}
+.Cheese2{
+    display: inline-block;
+    margin: auto;
+    padding-left: 28px;
+}
+.Mushroom2{
+    font-size: 14px;
+    padding-left: 6px;
+}
+.Corn2{
+    padding-left: 44px;
+}
+.Beef2{
+    padding-left: 45px;
+}
+.Fish2{
+    padding-left: 47px;
+}
+.Eggs2{
+    padding-left: 47px;
+}
+.Coriander2{
+    font-size: 14px;
+    padding-left: 12px;
+}
+
+@media screen and (max-width: 800px){
+    .Pepper, .Apple, .Cheese, .Corn, .Mushroom, .Garlic, .Beef, .Fish, .Eggs, .Coriander{
+        display: inline-block;
+        margin-left: 10px;
+        inline-size: 160px;
+        border-radius: 16%;
+        font-family: Open Sans;
+        border: 0.7px solid #2b292b
+    }
+    .Mushroom, .Garlic, .Beef, .Fish{
+        margin-top: 15px;
+    }
+    .Eggs, .Coriander{
+        margin-top: 15px
+    }
+}
